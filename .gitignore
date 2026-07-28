@@ -1,0 +1,39 @@
+﻿.project
+.agents
+
+# Visual Studion tiedostoja
+*/[Ee]xported[Oo]bj/
+*.booproj
+*.pidb
+*.suo
+*.svd
+*.user
+*.userprefs
+*.pth
+bin/
+obj/
+.vs/
+image/
+
+# Käyttiksen (Mac ja win) tekemiä tiedostoja joita jättää pois
+._*
+.DS_Store*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Icon?
+[Tt]humbs.db
+
+# Dolphin
+.directory
+.idea
+__pycache__
+logs/
+.ipynb_checkpoints/
+venv/
+.env
+
+# run
+yolov11/run/
+checkpoints
+animatior_output
